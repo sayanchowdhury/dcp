@@ -1,8 +1,10 @@
 def main(array, k):
-    set_array = set(array)
+    items = set()
     for elem in array:
-        if k - elem in array:
+        if k - elem in items:
             return True
+        items.add(elem)
+        
     return False
 
 
