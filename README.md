@@ -3,17 +3,4 @@
 Solutions from Daily Coding Problem. The format is inspired from [vineetjohn/daily-coding-problem](https://github.com/vineetjohn/daily-coding-problem)
 
 [Solution 1](solutions/problem_001/problem_001.py)
-
----
-
-#### Problem 2
-
-This problem was asked by Uber.
-
-Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
-
-For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
-
-Follow-up: what if you can't use division?
-
-[Solutions](solutions/problem_002.py)
+[Solution 2](solutions/problem_002/problem_002.py)
